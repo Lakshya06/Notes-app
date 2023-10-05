@@ -13,7 +13,7 @@ function Header(props){
             Notes
             </Navbar.Brand>
             {/* <Button onClick={() => console.log("clicked")}>tst</Button> */}
-          <Navbar.Toggle onClick={() => props.setSideBar(prevState => !prevState)}/>
+          <Navbar.Toggle onClick={() => props.setSideBar(prevState => !prevState)} className="d-md-none"/>
           {/* <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
               <Nav.Link href="#home">Home</Nav.Link>

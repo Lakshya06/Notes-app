@@ -73,7 +73,7 @@ const Main = (props) => {
     return(
 
         <>
-        <div className={`mob-sidebar ${props.sideBar ? "" : "d-none"}`}>
+        <div className={`mob-sidebar ${props.sideBar ? "" : "d-none"} d-md-none`}>
         <div className="notes-title mt-4" id="example-collapse-text" style={{color: "white"}}>
 
             <h4>Notes</h4>
